@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Shop</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/logo.png" alt="Ice Cream Shop Logo">
+        </div>
+        <div class="shop-title">
+            <h1>Ice Cream Shop</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#order">Order Online</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <img src="./image/hero.png" alt="Delicious Ice Cream">
+        <div class="hero-text">
+            <h1>Swim in Sweetness</h1>
+            <a href="#order" class="cta-button">Order Now</a>
+        </div>
+    </section>
+    <section class="about-us" id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>Welcome to our Ice Cream Shop! We craft each flavor with the finest ingredients and love. Whether you prefer classic favorites or daring new tastes, we have something delightful for everyone.</p>
+            <div class="about-images">
+                <img src="./image/about-images.png" alt="Ice Cream Making Process">
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="menu-container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="./image/flavor1.png" alt="Vanilla Ice Cream">
+                    <h3>Vanilla</h3>
+                    <p>Smooth and creamy vanilla ice cream.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./image/flavor2.png" alt="Chocolate Ice Cream">
+                    <h3>Chocolate</h3>
+                    <p>Rich and decadent chocolate ice cream.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./image/flavor3.png" alt="Strawberry Ice Cream">
+                    <h3>Strawberry</h3>
+                    <p>Sweet and tangy strawberry ice cream.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./image/flavor4.png" alt="BlueBerry Ice Cream">
+                    <h3>BlueBerry Ice Cream</h3>
+                    <p>Bursting with the tangy sweetness of ripe, juicy blueberries.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./image/flavor5.png" alt="Butter Scotch Ice Cream">
+                    <h3>Butter Scotch Ice Cream</h3>
+                    <p>A rich blend of caramelized sugar and buttery goodness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? Reach out to us!</p>
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <section class="order" id="order">
+        <div class="order-container">
+            <h2>Order Online</h2>
+            <p>Place your order online and enjoy our delicious ice creams!</p>
+            <form action="#" method="POST" class="order-form">
+                <label for="flavor">Select Ice Cream Flavor:</label><br>
+                <select id="flavor" name="flavor" required>
+                    <option value="">Choose a flavor...</option>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="strawberry">Strawberry</option>
+                    <option value="blueberry">BlueBerry</option>
+                    <option value="butterscotch">Butter Scotch</option>
+                </select><br><br>
+                <label for="quantity">Quantity:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="address">Your Address:</label><br>
+                <input type="text" id="address" name="address" placeholder="Your Address" required><br><br>
+                <label for="phone">Your Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <button type="submit" class="submit-button">Place Order</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Copyright Lohith || All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#"><img src="./image/facebook.png.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="./image/Instaram.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="./image/twitter.gif" alt="Twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
