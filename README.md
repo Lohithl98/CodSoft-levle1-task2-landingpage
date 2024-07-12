@@ -10,6 +10,8 @@ This repository contains the source code for an Ice Cream Shop landing page, cre
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
 
 ## Features
@@ -55,4 +57,15 @@ This repository contains the source code for an Ice Cream Shop landing page, cre
 ![Order Section](https://github.com/user-attachments/assets/732630ba-2b2e-4db2-84f3-2b732449e7f6)
 
 
-If you have any questions or feedback, feel free to open an issue or reach out via the contact form on the landing page. Enjoy building your Ice Cream Shop landing page!
+## Contributing
+
+If you have suggestions for improvements or find any bugs, please open an issue or submit a pull request. Contributions are welcome!
+
+## Contact
+
+If you have any questions or want to get in touch, feel free to contact me at lohithlohith6677@gmail.com.
+
+---
+
+Thank you for visiting my portfolio website repository!
+
